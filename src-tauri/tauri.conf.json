@@ -1,6 +1,6 @@
 {
   "$schema": "https://schema.tauri.app/config/2",
-  "productName": "tauri-app",
+  "productName": "My Tauri App",
   "version": "0.1.0",
   "identifier": "tw.yhw.tauri-app",
   "build": {
@@ -12,9 +12,8 @@
   "app": {
     "windows": [
       {
-        "title": "tauri-app",
-        "width": 800,
-        "height": 600
+        "title": "",
+        "titleBarStyle": "Overlay"
       }
     ],
     "security": {
